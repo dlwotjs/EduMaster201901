@@ -1,0 +1,15 @@
+﻿[user]
+Coordinates=10,10,54,141
+
+[DataSource1]
+Coordinates=73,1,77,33
+
+[FDConnection1]
+Coordinates=169,1,90,33
+
+[FDGUIxWaitCursor1]
+Coordinates=169,53,113,33
+
+[FDPhysIBDriverLink1]
+Coordinates=169,105,119,33
+

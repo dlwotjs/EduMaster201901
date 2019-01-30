@@ -1,0 +1,509 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 501
+  ClientWidth = 846
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl2: TTabControl
+    Align = Client
+    Size.Width = 846.000000000000000000
+    Size.Height = 501.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      846s
+      475s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout1: TLayout
+        Align = Left
+        Size.Width = 529.000000000000000000
+        Size.Height = 475.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 0
+        object Button1: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 344.000000000000000000
+          Position.Y = 28.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #49688#51221
+          OnClick = Button1Click
+        end
+        object Button2: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 368.000000000000000000
+          Position.Y = 132.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #49325#51228
+          OnClick = Button2Click
+        end
+        object Button3: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 424.000000000000000000
+          Position.Y = 60.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = #46321#47197
+          OnClick = Button3Click
+        end
+        object Button4: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 424.000000000000000000
+          Position.Y = 28.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = #52712#49548
+          OnClick = Button4Click
+        end
+        object Button5: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 344.000000000000000000
+          Position.Y = 60.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = #54869#51064
+          OnClick = Button5Click
+        end
+        object Button7: TButton
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 424.000000000000000000
+          Position.Y = 108.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = #52286#44592
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight]
+          TabOrder = 6
+          Position.X = 104.000000000000000000
+          Position.Y = 28.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit1Change
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight]
+          TabOrder = 7
+          Position.X = 104.000000000000000000
+          Position.Y = 52.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit2Change
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight]
+          TabOrder = 8
+          Position.X = 104.000000000000000000
+          Position.Y = 76.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit3Change
+        end
+        object Edit5: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight]
+          TabOrder = 9
+          Position.X = 328.000000000000000000
+          Position.Y = 108.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit5Change
+        end
+        object Grid2: TGrid
+          Anchors = [akLeft, akTop, akRight]
+          CanFocus = True
+          ClipChildren = True
+          Position.X = 24.000000000000000000
+          Position.Y = 232.000000000000000000
+          Size.Width = 433.000000000000000000
+          Size.Height = 201.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          RowCount = 0
+          Viewport.Width = 429.000000000000000000
+          Viewport.Height = 176.000000000000000000
+        end
+        object ImageControl1: TImageControl
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 216.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+        end
+        object Label1: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 16.000000000000000000
+          Position.Y = 33.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = #51060#47492
+          TabOrder = 12
+        end
+        object Label2: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 16.000000000000000000
+          Position.Y = 57.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = #49373#45380#50900#51068
+          TabOrder = 13
+        end
+        object Label3: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 17.000000000000000000
+          Position.Y = 81.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          Text = #51204#54868#48264#54840
+          TabOrder = 14
+        end
+        object Label4: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 16.000000000000000000
+          Position.Y = 121.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = #51088#44592#49548#44060
+          TabOrder = 15
+        end
+        object Memo1: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          OnChange = Memo1Change
+          Anchors = [akLeft, akTop, akRight]
+          Position.X = 32.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 345.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 16
+          Viewport.Width = 341.000000000000000000
+          Viewport.Height = 69.000000000000000000
+        end
+      end
+      object Layout2: TLayout
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.Y = -16.000000000000000000
+        Size.Width = 585.000000000000000000
+        Size.Height = 465.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 1
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 0
+          Position.X = 112.000000000000000000
+          Position.Y = 54.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit4Change
+        end
+        object Edit6: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 1
+          Position.X = 112.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit6Change
+        end
+        object Edit7: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 2
+          Position.X = 112.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit7Change
+        end
+        object Edit8: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 3
+          Position.X = 112.000000000000000000
+          Position.Y = 149.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit8Change
+        end
+        object Edit9: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 4
+          Position.X = 112.000000000000000000
+          Position.Y = 189.000000000000000000
+          Size.Width = 132.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = Edit9Change
+        end
+        object Grid1: TGrid
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          CanFocus = True
+          ClipChildren = True
+          Position.X = 48.000000000000000000
+          Position.Y = 238.000000000000000000
+          Size.Width = 521.000000000000000000
+          Size.Height = 217.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          RowCount = 0
+          Viewport.Width = 517.000000000000000000
+          Viewport.Height = 192.000000000000000000
+        end
+        object Label5: TLabel
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Position.X = 40.000000000000000000
+          Position.Y = 62.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'id'
+          TabOrder = 6
+        end
+        object Label6: TLabel
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Position.X = 40.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 31.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'pw'
+          TabOrder = 7
+        end
+        object Label7: TLabel
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Position.X = 40.000000000000000000
+          Position.Y = 112.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'name'
+          TabOrder = 8
+        end
+        object Label8: TLabel
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Position.X = 40.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'mail'
+          TabOrder = 9
+        end
+        object Label9: TLabel
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Position.X = 40.000000000000000000
+          Position.Y = 146.000000000000000000
+          Size.Width = 152.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'phone'
+          TabOrder = 10
+        end
+        object Button9: TButton
+          Position.X = 272.000000000000000000
+          Position.Y = 200.000000000000000000
+          TabOrder = 11
+          Text = #44032#51077
+          OnClick = Button9Click
+        end
+      end
+      object Layout3: TLayout
+        Position.X = 328.000000000000000000
+        Position.Y = 120.000000000000000000
+        Size.Width = 289.000000000000000000
+        Size.Height = 249.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Edit10: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 96.000000000000000000
+          Position.Y = 112.000000000000000000
+        end
+        object Edit11: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Position.X = 96.000000000000000000
+          Position.Y = 144.000000000000000000
+        end
+        object Button8: TButton
+          Position.X = 208.000000000000000000
+          Position.Y = 144.000000000000000000
+          TabOrder = 2
+          Text = 'login'
+          OnClick = Button8Click
+        end
+        object Label10: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 112.000000000000000000
+          Text = 'Label10'
+          TabOrder = 3
+        end
+        object Label11: TLabel
+          Position.X = 24.000000000000000000
+          Position.Y = 144.000000000000000000
+          Text = 'Label11'
+          TabOrder = 4
+        end
+        object Button10: TButton
+          Position.X = 184.000000000000000000
+          Position.Y = 208.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = #54924#50896#44032#51077
+          OnClick = Button10Click
+        end
+        object Label12: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = #47196#44536#51064' '#51221#48372#47484' '#51082#50612#48260#47160#45208#50836'?'
+          TabOrder = 6
+        end
+        object Button11: TButton
+          Position.X = 184.000000000000000000
+          Position.Y = 176.000000000000000000
+          TabOrder = 7
+          Text = 'id/pw'#52286#44592
+        end
+        object Label13: TLabel
+          Position.X = 16.000000000000000000
+          Position.Y = 208.000000000000000000
+          Text = #50500#51649' '#54924#50896#51060' '#50500#45772#44032#50836'?'
+          TabOrder = 8
+        end
+      end
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataModule1.user
+    ScopeMappings = <>
+    Left = 192
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 260
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid2
+      Columns = <
+        item
+          MemberName = 'name'
+        end
+        item
+          MemberName = 'birth'
+        end
+        item
+          MemberName = 'phone'
+        end
+        item
+          MemberName = 'comment'
+        end>
+    end
+    object LinkGridToDataSourceBindSourceDB12: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      Columns = <
+        item
+          MemberName = 'name'
+        end
+        item
+          MemberName = 'birth'
+        end
+        item
+          MemberName = 'phone'
+        end
+        item
+          MemberName = 'comment'
+        end>
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'ID'
+        end
+        item
+          MemberName = 'PW'
+        end
+        item
+          MemberName = 'LOGNAME'
+        end
+        item
+          MemberName = 'LOGPHONE'
+        end
+        item
+          MemberName = 'LOGMAIL'
+        end>
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = DataModule1.login
+    ScopeMappings = <>
+    Left = 360
+    Top = 65528
+  end
+end
