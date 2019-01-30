@@ -25,16 +25,13 @@ object DataModule1: TDataModule1
     Top = 136
   end
   object FDTable1: TFDTable
-    Active = True
     IndexFieldNames = 'BOOK_SEQ'
-    Connection = FDConnection1
     UpdateOptions.UpdateTableName = 'BOOK_LOG'
     TableName = 'BOOK_LOG'
-    Left = 232
-    Top = 240
+    Left = 256
+    Top = 216
   end
   object DataSource1: TDataSource
-    DataSet = FDTable1
     Left = 168
     Top = 200
   end
